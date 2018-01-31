@@ -69,6 +69,7 @@ enter `make clean` followed by `make` to obtain the executable (of the above nam
 		  EXTENSION, and WITHOUT the PATH.
     
 
-_________________________________________________________________________________________________
+## Acknowledgement
+This project was undertaken as part of Yale-NUS College's AY2017-18 fall semester POSIX course (YSC 3217) run by professor Simon Perrault. 
 
 
