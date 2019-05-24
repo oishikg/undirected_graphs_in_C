@@ -1,6 +1,6 @@
-# Implementing Undirected Graphs in C
+# Undirected Graphs in `C`
 
-## The data structure
+### The data structure
 
 - This project implements an undirected graphical structure in C, in which
 nodes store data values of types integer, float, or string.
@@ -11,7 +11,7 @@ which holds pointers to the nodes.
 - Edges are implemented only between distinct nodes; self-referencing edges
 are not allowed by our data type.
 
-## Implementation
+### Implementation
 
 - The entire program is interactive, prompting the user to create graphs, and
 choose 1 of the 14 options. Notable features about the implementation
@@ -48,28 +48,46 @@ pseudo-XML schema. The schema is as follows:
     - `* *` : Holds edge data, i.e., the references to the adjacent nodes of a
       	  given node. This is only contained in the ^ ^ environment.
 	  
-  Examples of exported graphs may be found in the zip folder that contains the executable and the
-  C files.
+ Examples of exported graphs may be found in the zip folder that contains the executable and the
+ C files.
 
-## Compiling and running
 
-- This project already has an executable, conveniently name `graphs`. Run it by CD-ing into the
-directory that you unzip, and run it by returning `./graphs` to the command line.
-- If you would like to clean the file, and/or recompile it, we have a make file as well. Simply
-enter `make clean` followed by `make` to obtain the executable (of the above name).
-- The files in the folder that you unzip are as follows:
-      (i) `midterm_oishik.c` : The main file containing the program.
-      (ii) `midterm_oishik.h` : The header file for (i).
-      (iii) `Makefile` : The make file with all the compilation flags required by the assignment
-      	    	       (and a GDB flag for debugging).
-      (iv) `midterm_oishik.o` : The object file for the program. Remove this file using the
-      	   		      'make clean' command before recompiling.
-      (v) `*.xml` : All the .xml files are sample of exported graphs. To see them working, choose
-      	  	  option 14 when the program runs, and enter the name of the file WITH THE
-		  EXTENSION, and WITHOUT the PATH.
-    
+## Getting Started
 
-## Acknowledgement
+
+### Prerequisites
+
+Any `C` compiler. I used Ubuntu's preinstalled `gcc`. 
+
+
+### Installing
+
+- Pass the `C` compiler the `midterm_oishik.c` file to build the executable file. 
+- Run the executable to start user-interface loop. 
+
+
+
+## Running the tests
+
+See `tests` for sample `.xml` files which encode the graphs. These file paths may be passed to
+the user loop on prompting for testing. 
+
+## Built With
+
+Is this required? 
+
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+Is this required? 
+
+## Acknowledgments
+
 This project was undertaken as part of Yale-NUS College's AY2017-18 fall semester POSIX course (YSC 3217) run by professor Simon Perrault. 
-
 
