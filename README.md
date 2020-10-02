@@ -72,22 +72,10 @@ Any `C` compiler. I used Ubuntu's preinstalled `gcc`.
 See `tests` for sample `.xml` files which encode the graphs. These file paths may be passed to
 the user loop on prompting for testing. 
 
-## Built With
-
-Is this required? 
 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Oishik Ganguly**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-Is this required? 
-
-## Acknowledgments
-
-This project was undertaken as part of Yale-NUS College's AY2017-18 fall semester POSIX course (YSC 3217) run by professor Simon Perrault. 
 
